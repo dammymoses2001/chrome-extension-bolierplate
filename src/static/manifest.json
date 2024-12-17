@@ -1,5 +1,5 @@
 {
-  "name": "React Extension",
+  "name": "Sling Pay",
   "description": "Chrome Extension in React!",
   "version": "1.0.0",
   "manifest_version": 3,
@@ -11,7 +11,11 @@
   "action": {
     "default_popup": "popup.html",
     "default_title": "React Extension",
-    "default_icon": "icon.png"
+    "default_icon":  {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
   },
   "permissions": ["storage"],
   "options_page": "options.html",

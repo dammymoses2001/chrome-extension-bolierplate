@@ -4,8 +4,9 @@ import './popup.css'
 
 const App: React.FC<{}> = () => {
   return (
-    <div>
-      <img src="icon.png" />
+    <div className='h-[200px] w-[200px]'>
+      <img src="icon.png" className='w-[20px]' style={{width:'100px'}} />
+      hello
     </div>
   )
 }
